@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portafolio - Ragbert </title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Íconos -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <h1 class="logo"> Ragbert Polanco </h1>
+        <nav>
+            <a href="#sobre-mi"> Sobre mí </a>
+            <a href="#proyectos"> Proyectos </a>
+            <a href="#contacto"> Contacto </a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero fade-in">
+        <img src="img/yo.JPEG" alt="Mi foto" class="foto">
+        <h2 class="titulo">Hola, soy <span>Ragbert Polanco </span></h2>
+        <p class="subtitulo">Desarrollador de Software • Aprendiendo cada día</p>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="card fade-in-delayed">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy un desarrollador apasionado por la tecnología,
+            la creación de interfaces y el desarrollo de los apartdos backend. Aunque todavía no
+            tengo experiencia laboral, estoy construyendo proyectos reales 
+            y aprendiendo diariamente para crecer en el mundo del desarrollo.
+        </p>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="card fade-in-delayed">
+        <h2>Proyectos</h2>
+        <div class="proyectos-grid">
+
+            <a href="https://github.com/Ragbert/personal-finance-app" target="_blank" class="proyecto">
+                <h3> Personal Finance </h3>
+                <p> Personal Finance es una solución integral de gestión de finanzas personales desarrollada con HTML5, CSS3 y JavaScript vanilla. La aplicación permite a los usuarios registrarse, autenticarse, crear transacciones (ingresos y gastos), visualizar un dashboard con métricas en tiempo real y generar gráficos analíticos para entender mejor sus patrones de gasto. </p>
+            </a>
+
+            <a href="https://github.com/Ragbert/Simulacion-de-Neuronas-Cerebrales" target="_blank" class="proyecto">
+                <h3> Simulación de Neuronas Cerebrales </h3>
+                <p> Este script implementa una red neuronal simple simulada con Brian2, un framework de Python para el modelado de redes neuronales biológicas. </p>
+            </a>
+
+            <a href="https://github.com/Ragbert/clothing-store" target="_blank" class="proyecto">
+                <h3> Clothing Store </h3>
+                <p> CompraYa es una aplicación web que permite a los usuarios explorar un catálogo de ropa y accesorios, agregar productos a un carrito de compras y proceder con la compra. La aplicación utiliza localStorage para persistir el carrito entre sesiones. </p>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="card fade-in-delayed">
+        <h2>Contacto</h2>
+
+        <div class="links">
+            <a href="mailto:ragbertp@gmail.com">
+                <i data-feather="mail"></i> Correo
+            </a>
+
+            <a href="https://github.com/Ragbert" target="_blank">
+                <i data-feather="github"></i> GitHub
+            </a>
+
+            <a href="https://linkedin.com/in/ragbert-pdj" target="_blank">
+                <i data-feather="linkedin"></i> LinkedIn
+            </a>
+
+            <a href="https://instagram.com/rfp.djesus" target="_blank">
+                <i data-feather="instagram"></i> Instagram
+            </a>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+</html>
